@@ -5,68 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de la persona usuaria</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-    <h1>Registro de la persona usuaria</h1>    
-    <form id="myForm">
-        <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
+    <div id="contenedor">
+        <h1>Registro de la persona Usuaria</h1>
+        <form id="myForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
 
-        <div class="form-group">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
-        </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
 
-        <div class="form-group">
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-        <div class="form-group">
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
 
-        <!-- seccion de descripcion personal -->
-        <div>
-            <label for="mensaje">Describete a ti mismo:</label>
-            <textarea id="mensaje" name="mensaje" placeholder="Describe tu personalidad, intereses y cualidades..."></textarea>
-        </div>
+            <!-- seccion de descripcion personal -->
+            <div class="form-group">
+                <label for="mensaje">Descríbete a ti mismo:</label>
+                <textarea id="mensaje" name="mensaje"
+                    placeholder="Describe tu personalidad, intereses y cualidades..."></textarea>
+            </div>
 
-        <!-- seccion de intereses (checkboxes)-->
-        <fieldset class="intereses">
-            <legend>Intereses:</legend>
+            <!-- seccion de intereses (checkboxes)-->
+            <fieldset class="intereses">
+                <legend>Intereses:</legend>
 
-        <div class="checkbox-group">
-            <input type="checkbox" id="interes-tecnologia" name="intereses" value="tecnología">
-            <label for="interes-tecnologia">Tecnología</label>
-        </div>
-        <div class="checkbox-group">
-            <input type="checkbox" id="interes-arte" name="intereses" value="arte">
-            <label for="interes-arte">Arte</label>
-        </div>
-        <div class="checkbox-group">
-            <input type="checkbox" id="interes-deportes" name="intereses" value="deportes">
-            <label for="interes-deportes">Deportes</label>
-        </div>
-        <div class="checkbox-group">
-            <input type="checkbox" id="interes-musica" name="intereses" value="música">
-            <label for="interes-musica">Música</label>
-        </div>
-        <div class="checkbox-group">
-            <input type="checkbox" id="interes-lectura" name="intereses" value="lectura">
-            <label for="interes-lectura">Lectura</label>
-        </div>
-        </fieldset>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="interes-tecnologia" name="intereses" value="tecnología">
+                    <label for="interes-tecnologia">Tecnología</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="interes-arte" name="intereses" value="arte">
+                    <label for="interes-arte">Arte</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="interes-deportes" name="intereses" value="deportes">
+                    <label for="interes-deportes">Deportes</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="interes-musica" name="intereses" value="música">
+                    <label for="interes-musica">Música</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="interes-lectura" name="intereses" value="lectura">
+                    <label for="interes-lectura">Lectura</label>
+                </div>
+            </fieldset>
 
-        <div class="submit-button">
-            <button type="submit">Registrarse</button>
-        </div>
-        
-    </form>
+            <div class="submit-button">
+                <button type="submit">Registrarse</button>
+            </div>
+
+        </form>
+    </div>
+
 </body>
 
 </html>

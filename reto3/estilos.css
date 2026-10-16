@@ -1,0 +1,108 @@
+/* ===== Página en general (selectores de elemento) ===== */
+body {
+    background: #e8eef5;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f4e79;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+/* ===== Contenedor (selector de id) ===== */
+#contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Campos (selector de clase) ===== */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: bold;
+    color: #1f4e79;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    border: 2px solid #9bb3cc;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    background: #f7fafd;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #2e7d32;
+    background: #ffffff;
+    outline: none;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* ===== Intereses ===== */
+.intereses {
+    border: 2px solid #9bb3cc;
+    border-radius: 20px;
+    background: #f7fafd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.intereses legend {
+    font-weight: bold;
+    color: #1f4e79;
+    padding: 0 8px;
+}
+
+.checkbox-group {
+    margin-bottom: 8px;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    color: #333333;
+    margin-left: 6px;
+}
+
+/* ===== Botón ===== */
+.submit-button {
+    text-align: center;
+}
+
+.submit-button button {
+    background: #2e7d32;
+    color: #ffffff;
+    border: 2px solid #1b5e20;
+    border-radius: 30px;
+    padding: 12px 32px;
+    font-size: 18px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background: #1b5e20;
+}
